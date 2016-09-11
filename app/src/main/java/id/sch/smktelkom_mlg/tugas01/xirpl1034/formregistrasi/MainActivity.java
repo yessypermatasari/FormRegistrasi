@@ -50,18 +50,15 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
         cb4 = (CheckBox) findViewById(R.id.checkBoxDG);
         cb5 = (CheckBox) findViewById(R.id.checkBoxDW);
         bOk = (Button) findViewById(R.id.buttonOK);
-
         cb1.setOnCheckedChangeListener(this);
         cb2.setOnCheckedChangeListener(this);
         cb3.setOnCheckedChangeListener(this);
         cb4.setOnCheckedChangeListener(this);
         cb5.setOnCheckedChangeListener(this);
-
         tvHasil = (TextView) findViewById(R.id.textViewHasil);
         tvHasil2 = (TextView) findViewById(R.id.textViewHasil2);
         tvHasil3 = (TextView) findViewById(R.id.textViewHasil3);
         tvHasil4 = (TextView) findViewById(R.id.textViewHasil4);
-
         adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, listKelas);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spkel.setAdapter(adapter);
