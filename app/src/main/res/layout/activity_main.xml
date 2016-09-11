@@ -1,16 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+
     xmlns:tools="http://schemas.android.com/tools"
+
     android:layout_width="match_parent"
+
     android:layout_height="match_parent"
-    android:orientation="vertical"
+
     android:paddingBottom="@dimen/activity_vertical_margin"
+
     android:paddingLeft="@dimen/activity_horizontal_margin"
+
     android:paddingRight="@dimen/activity_horizontal_margin"
-    android:weightSum="1"
+
+    android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="id.sch.smktelkom_mlg.tugas01.xirpl1034.formregistrasi.MainActivity">
 
-    <TextView
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayout"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+        android:layout_alignParentLeft="true"
+
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentTop="true"
+
+    android:orientation="vertical"
+
+        android:weightSum="1">
+
+
+        <TextView
         android:id="@+id/textView2"
         style="@style/Base.TextAppearance.AppCompat.Headline"
         android:layout_width="wrap_content"
@@ -29,7 +55,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Nama" />
-
     <EditText
         android:id="@+id/editTextNama"
         android:layout_width="match_parent"
@@ -122,7 +147,8 @@
     <Spinner
         android:id="@+id/spinnerKelas"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:entries="@array/kelas" />/>
 
     <Button
         android:id="@+id/buttonOK"
@@ -136,10 +162,6 @@
         android:layout_height="wrap_content"
         android:text="Hasil" />
 
-    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:id="@+id/scrollView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
 
 </LinearLayout>
+</ScrollView>
