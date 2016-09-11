@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="kelas">
-        <item>XRPL1</item>
-        <item>XRPL1</item>
-        <item>XRPL2</item>
-        <item>XRPL3</item>
-        <item>XRPL4</item>
-        <item>XRPL5</item>
-        <item>XRPL6</item>
-        <item>XTKJ1</item>
-        <item>XTKJ2</item>
-        <item>XTKJ3</item>
-        <item>XTKJ4</item>
-        <item>XTKJ5</item>
-        <item>XTKJ5</item>
+        <item>X</item>
+        <item>XI</item>
+        <item>XII</item>
     </string-array>
 </resources>

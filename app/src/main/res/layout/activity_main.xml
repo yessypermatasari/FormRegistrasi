@@ -148,20 +148,45 @@
         android:id="@+id/spinnerKelas"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:entries="@array/kelas" />/>
+        android:entries="@array/kelas"
+        android:spinnerMode="dropdown" />/>
 
-    <Button
+        <Spinner
+            android:id="@+id/spinnerkel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown" />
+
+        <Button
         android:id="@+id/buttonOK"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
         android:text="DAFTAR" />
 
-    <TextView
-        android:id="@+id/textViewHasil"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hasil" />
+        <TextView
+            android:id="@+id/textViewHasil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hasil" />
+
+        <TextView
+            android:id="@+id/textViewHasil2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hasil" />
+
+        <TextView
+            android:id="@+id/textViewHasil3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hasil" />
+
+        <TextView
+            android:id="@+id/textViewHasil4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hasil" />
 
 
-</LinearLayout>
+    </LinearLayout>
 </ScrollView>
