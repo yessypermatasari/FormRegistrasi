@@ -33,18 +33,23 @@
     <EditText
         android:id="@+id/editTextNama"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:hint="Nama" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Umur" />
+        android:text="Tahun Lahir" />
 
     <EditText
-        android:id="@+id/editTextUmur"
+        android:id="@+id/editTextTanggal"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"
+        android:hint="Umur"
+        android:inputType="numberSigned" />
 
     <TextView
         android:id="@+id/textView4"
@@ -53,6 +58,7 @@
         android:text="Jenis Kelamin" />
 
     <RadioGroup
+        android:id="@+id/radioGroupJenis"
         android:layout_width="match_parent"
         android:layout_height="67dp">
 
@@ -81,35 +87,30 @@
         android:id="@+id/checkBoxVE"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:checked="false"
         android:text="Video Editing" />
 
     <CheckBox
         android:id="@+id/checkBoxJ"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:checked="false"
         android:text="Jaringan" />
 
     <CheckBox
         android:id="@+id/checkBoxD"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:checked="false"
         android:text="Desktop" />
 
     <CheckBox
         android:id="@+id/checkBoxDG"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:checked="false"
         android:text="Desain Grafis" />
 
     <CheckBox
         android:id="@+id/checkBoxDW"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:checked="false"
         android:text="Desain WEB" />
 
     <TextView
@@ -129,15 +130,16 @@
         android:layout_height="wrap_content"
         android:text="DAFTAR" />
 
-    <ScrollView
-        android:id="@+id/scrollView"
-        android:layout_width="match_parent"
-        android:layout_height="36dp" />
-
     <TextView
         android:id="@+id/textViewHasil"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hasil" />
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
 </LinearLayout>
