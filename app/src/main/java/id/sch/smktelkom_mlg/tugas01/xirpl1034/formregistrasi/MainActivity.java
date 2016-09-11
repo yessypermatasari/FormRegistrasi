@@ -39,8 +39,6 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-
         etNama = (EditText) findViewById(R.id.editTextNama);
         etTahun = (EditText) findViewById(R.id.editTextTanggal);
         spkelas = (Spinner) findViewById(R.id.spinnerKelas);
