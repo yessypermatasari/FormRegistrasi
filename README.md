@@ -20,3 +20,4 @@ Kelas: XI RPL 1
 No. Urut: 34
 NIS : 4854/1573.070
 Nama Sekolah: SMK Telkom Malang
+
