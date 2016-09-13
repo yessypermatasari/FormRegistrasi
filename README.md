@@ -8,9 +8,9 @@ Disini akan muncul notice kesalahan jika nama dan tahun kelahiran tidak diisi at
 Disini saya membuat 3 commit yaitu membuat code, menambah code,dan mengconnectkan ke git hub.
 
 #SceenShot
-![ScreenShot](https://github.com/yessypermatasari/FormRegistrasi/blob/master/Screenshot%20(28).png)
-![ScreenShot](https://github.com/yessypermatasari/FormRegistrasi/blob/master/Screenshot%20(29).png)
-![ScreenShot](https://github.com/yessypermatasari/FormRegistrasi/blob/master/Screenshot%20(27).png)
+![ScreenShot](https://github.com/yessypermatasari/FormRegistrasi/blob/master/Screenshot%20(268).png)
+![ScreenShot](https://github.com/yessypermatasari/FormRegistrasi/blob/master/Screenshot%20(269).png)
+![ScreenShot](https://github.com/yessypermatasari/FormRegistrasi/blob/master/Screenshot%20(267).png)
 #File :
 https://drive.google.com/file/d/0B1i1XiXKCO5MZ2tRbGg4ZTFiMUE/view?usp=sharing
 #BIODATA
