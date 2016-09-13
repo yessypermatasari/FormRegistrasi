@@ -11,6 +11,8 @@ https://drive.google.com/file/d/0B1i1XiXKCO5MdFo1MS1xbm1ud1U/view?usp=sharing
 
 #SceenShot
 ![ScreenShot](https://github.com/yessypermatasari/FormRegistrasi/blob/master/Screenshot%20(28).png)
+![ScreenShot](https://github.com/yessypermatasari/FormRegistrasi/blob/master/Screenshot%20(29).png)
+![ScreenShot](https://github.com/yessypermatasari/FormRegistrasi/blob/master/Screenshot%20(27).png)
 #File :
 https://drive.google.com/file/d/0B1i1XiXKCO5MZ2tRbGg4ZTFiMUE/view?usp=sharing
 #BIODATA
